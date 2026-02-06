@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Tiba Tesla</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+<header>
+    <div class="header-content">
+        <div class="profile">
+            <img src="https://i.ibb.co/ZRcY8Z60/me.jpg" alt="Tiba Tesla">
+            <div class="profile-info">
+                <h3>Tiba Tesla</h3>
+                <p>Software Engineer</p>
+            </div>
+        </div>
+
+        <div class="menu-toggle" aria-label="Toggle Navigation">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="childhood.html">Childhood</a>
+            <a href="education.html">Education</a>
+            <a href="skills.html">Skills</a>
+            <a href="aspirations.html">Aspirations</a>
+            <a href="contact.html" class="active">Contact</a>
+
+            <div class="mobile-socials">
+                <a href="https://x.com/Teslatiba" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://linkedin.com/in/teslatiba/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/tibatesla/" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/teslatiba/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram instagram-icon"></i></a>
+            </div>
+        </nav>
+
+        <div class="social">
+            <a href="https://x.com/Teslatiba" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://linkedin.com/in/teslatiba/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/tibatesla/" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/teslatiba/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram instagram-icon"></i></a>
+            <a href="https://www.facebook.com/share/1A2V2nhAuQ/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+    </div>
+</header>
+    <main>
+        <h1>Get in Touch</h1>
+        <section>
+            <form onsubmit="return validateForm()">
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Enter your name">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter your email">
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="5" placeholder="How can I help you?"></textarea>
+                </div>
+                <div style="text-align: center;">
+                    <button type="submit">Send Message</button>
+                </div>
+            </form>
+            
+            <div style="margin-top: 3rem; text-align: center; border-top: 1px solid var(--border-color); padding-top: 2rem;">
+                
+                <p style="font-size: 1.1rem; color: var(--text-main); margin-bottom: 1rem;">
+                    <i class="fas fa-phone-alt" style="color:var(--gold); margin-right: 8px;"></i> 
+                    +254 111 570 173
+                </p>
+
+                <a href="https://wa.me/254111570173" target="_blank" style="text-decoration: none;" rel="noopener noreferrer" aria-label="WhatsApp">
+                    <button style="background-color: #25D366; color: white; display: inline-flex; align-items: center; gap: 10px;">
+                        <i class="fa-brands fa-whatsapp" style="font-size: 1.2rem;"></i>
+                        Chat on WhatsApp
+                    </button>
+                </a>
+
+                <p style="margin-top: 1.5rem;">
+                    <i class="fas fa-envelope" style="color:var(--gold); margin-right: 8px;"></i> 
+                    tibatesla@gmail.com
+                </p>
+                <p>
+                    <i class="fas fa-map-marker-alt" style="color:var(--gold); margin-right: 8px;"></i> 
+                    Nairobi, Kenya
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer>&copy; 2026 Tiba Tesla. All Rights Reserved.</footer>
+    <script src="script.js"></script>
+</body>
+</html>
